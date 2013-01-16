@@ -1,0 +1,13 @@
+;;; flymake-lua-autoloads.el --- automatically extracted autoloads
+;;
+;;; Code:
+
+
+(provide 'flymake-lua-autoloads)
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; no-update-autoloads: t
+;; coding: utf-8
+;; End:
+;;; flymake-lua-autoloads.el ends here

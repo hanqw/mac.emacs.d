@@ -1,0 +1,128 @@
+gtags
+ls
+cd ~/workspace/
+ls
+global add
+global -r add
+cd Android-Terminal-Emulator/
+ls
+djcb-gtags-create-or-update 
+global -xr onCreate
+global -r onCreate
+ls
+man PATH
+man export
+ls -la ~
+find ~/.emacs.d/ -type f move-text*
+find ~/.emacs.d/ -type f -name move-text*
+cd .emacs.d/
+cd elpa/
+cd move-text-20120105.2117/
+ls
+cat move-text.elc
+cat move-text.el
+cat ~/bak_app/emacs_lisp/auto-complete-clang/README.org
+ls -la /usr/include/
+ls -la /usr/local/include/
+ls -la /usr/lib/clang/
+ls -la /usr/lib/clang/4.1/include/
+ls -la /usr/lib/c++/
+cat ~/bak_app/emacs_lisp/auto-complete-clang/README.org
+ls /usr/include/c++/4.6
+ls /usr/include/c++/4.2.1/
+cat /usr/include/c++/4.2.1/cstdlib 
+man free
+djcb-gtags-create-or-update 
+cat ~/bak_app/emacs_lisp/auto-complete-clang/README.org
+echo ""|g++ -v -x c++ -E -
+echo ""|gcc -v -x c -E -
+ls
+cd workspace/
+ls
+cd HelloGcc/
+ls
+global main
+global -xr main
+global -xf main
+global -x main
+global -rx main
+global -r main
+global -f
+global -fx src/HelloGcc.c 
+global -f src/HelloGcc.c 
+global printf
+global -f printf
+global cout
+man cout
+man printf
+man puts
+ls
+cd ~/workspace/
+cd HelloGcc/
+ls
+cd src/
+ls
+ctags -f
+ctags -h
+ctags --help
+ls
+cat TAGS 
+gtags
+ls
+gtags -f
+gtags -f HelloGcc.c 
+global -f HelloGcc.c 
+gtags
+global -f HelloGcc.c 
+global -xf HelloGcc.c 
+gdb -v
+brew search gdb
+gdb --help
+gdb --version
+ls -la
+pwd
+cd ~/workspace/
+ls
+cd HelloPy/
+cd ../HelloGcc/src/
+ls
+make ex1
+make HelloGcc
+./HelloGcc 
+hanqw $CFLAGS="-Wall" make HelloGcc
+hanqw $CFLAGS="-Wall" make HelloGcc
+hanqw $CFLAGS="-Wall" make HelloGcc
+ make HelloGcc
+CFLAGS="-Wall" make HelloGcc
+rm HelloGcc&&CFLAGS="-Wall" make HelloGcc
+ls
+rm HelloGcc&&CFLAGS="-Wall" make HelloGcc
+CFLAGS="-Wall" make HelloGcc
+ls
+cc --help
+man cc
+echo $CFLAGS
+cd ~/workspace/
+ls
+ls
+rm makefile.save
+make
+make
+make
+./test 
+ls ~/.emacs.d/
+ls -la ~/.emacs.d/
+cd ~/.emacd.d
+cd ~/.emacs.d
+ls
+git init
+git commit -m "hanqw .emacs"
+git commit -m "hanqw .emacs"
+git --help
+git add *
+git commit -m "hanqw .emacs"
+git log
+git help
+git remote add origin git@github.com:hanquanwei/Dotemacs.git
+git push origin master
+sudo git push origin master

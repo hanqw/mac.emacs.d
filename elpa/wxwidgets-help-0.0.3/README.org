@@ -1,0 +1,34 @@
+* wxwidgets-help (current version 0.0.3)
+Look up wxWidgets API by using local html manual
+* Install
+wxwidgets-help is already uploaded to [[http://marmalade-repo.org/]]. So the best way to install it is using Emacs' package manager.
+* Set up
+** Set the environment variable WXWIN or WXWIDGETS to the root directory of wxWidgets
+For example, add one line into your .bashrc
+#+BEGIN_SRC bash
+export WXWIN=$HOME/wxWidgets
+#+END_SRC
+** Create the html manual from wxWidgets source
+#+BEGIN_SRC bash
+cd $WXWIN/docs/doxygen;./regen.sh html
+#+END_SRC
+** Add one line into your .emacs
+#+BEGIN_SRC elisp
+(global-set-key (kbd "C-c w") '(lambda () (interactive) (wxhelp-browse-class-or-api (thing-at-point 'symbol))))
+#+END_SRC
+* How to use it
+Move the focus on any word (keyword) you want to look up and press the hot key "C-c w".
+
+BTW, the keyword is copied to the clipboard (kill ring) automatically.
+* Contact me
+You can report bugs at [[https://github.com/redguardtoo/wxwidgets-help]]. My email is <chenbin DOT sh AT gmail>.
+* License
+Copyright (C) 2012 Chen Bin
+
+Author: Chen Bin <chenbin.sh@gmail.com> Keywords: wxWidgets C++
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see [[http://www.gnu.org/licenses/]].
